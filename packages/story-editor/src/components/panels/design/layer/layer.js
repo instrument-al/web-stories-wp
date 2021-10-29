@@ -116,7 +116,7 @@ const LayerButton = styled(Button).attrs({
           theme.colors.interactiveBg.secondaryPress,
           0
         )};
-        --selected-hover-color: ${theme.colors.interactiveFg.brandHover};
+        --selected-hover-color: ${theme.colors.interactiveBg.tertiaryHover};
       }
     `}
 
@@ -208,7 +208,7 @@ const LayerAction = styled(Button).attrs({
   }
 
   /*
-   * override base button background color so we can receive the 
+   * override base button background color so we can receive the
    * proper background color from the parent.
    */
   && {
